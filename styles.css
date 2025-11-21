@@ -1,0 +1,30 @@
+#chess-assistant-sidebar {
+  position: fixed;
+  right: 12px;
+  top: 80px;
+  width: 200px;
+  background: rgba(20, 20, 20, 0.85);
+  color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+}
+
+#chess-assistant-sidebar h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+#chess-assistant-sidebar .ca-row {
+  margin-bottom: 6px;
+  font-size: 13px;
+}
+
+#chess-assistant-overlay {
+  position: absolute;
+  pointer-events: none;
+  z-index: 5;
+}
