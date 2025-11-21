@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Chess Assistant",
+  "version": "1.0.0",
+  "description": "Analyze live chess.com games with a built-in JavaScript engine and visual suggestions.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.chess.com/*"],
+      "js": ["lib/engine-core.js", "engine.js", "content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
